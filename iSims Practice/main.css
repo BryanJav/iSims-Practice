@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+/* color palletes
+	#e2f3f5 white
+	#22d1ee sky blue
+	#3d5af1 violet
+	#0e153a dark violet
+*/
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Mulish, sans-serif;
+}
+
+header{
+	display: flex;
+	flex-grow: 1;
+	height: 12rem;
+	background-color: #0e153a;
+}
+
+.logo{
+	width: 200px;
+	height: 200px;
+	margin: 0px auto;
+}
+
+.login-instructions{
+	width: 100%;
+	height: 350px;
+	font-size: 32px;
+	padding: 50px;
+	margin: 50px auto;
+}
+
+.login-instructions h3{
+	margin-bottom: 50px;
+}
+
+.login-instructions li{
+	margin-left: 100px;
+}
+
+.login-form-wrapper{
+	width: 100%;
+	height: 1000px;
+	background-color: grey;
+	margin: 100px auto;
+}
+
+.login-form-user-and-bday{
+	position: relative;
+	top: 10%;
+	width: 80%;
+	height: 80%;
+	margin: 50px auto;
+	background-color: red;
+}
+
+.login-form-user-and-bday div{
+	position: relative;
+	top: 10%;
+	height: 20%;
+	width: 80%;
+	margin: 50px auto;
+	background-color: grey;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+.login-form-user-and-bday label, input, select{
+	position: relative;
+	top: 35%;
+	left: 10%;
+}
+
+.login-form-user-and-bday input{
+	position: relative;
+	top: 32%;
+	left: 65px;
+	height: 40px;
+}
+
+.login-form-user-and-bday select{
+	position: relative;
+	top: 32%;
+	left: 65px;
+	height: 40px;
+	width: 100px;
+}
