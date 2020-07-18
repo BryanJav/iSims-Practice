@@ -17,6 +17,7 @@
 
 body{
 	font-family: Mulish, sans-serif;
+
 }
 
 header{
@@ -51,28 +52,33 @@ header{
 .login-form-wrapper{
 	width: 100%;
 	height: 1000px;
-	background-color: grey;
+	background-color: #22d1ee;
 	margin: 100px auto;
+
 }
 
 .login-form-user-and-bday{
+	border: 5px solid #0e153a;
+	border-radius: 10px;
 	position: relative;
 	top: 10%;
 	width: 80%;
 	height: 80%;
 	margin: 50px auto;
-	background-color: red;
+	background-color: #3d5af1;
 }
 
 .login-form-user-and-bday div{
 	position: relative;
-	top: 10%;
+	top: 6%;
 	height: 20%;
 	width: 80%;
 	margin: 50px auto;
-	background-color: grey;
+	border: 2px solid #22d1ee;
+	border-radius: 10px;
 	text-transform: uppercase;
 	font-size: 32px;
+	font-weight: bold;
 }
 
 .login-form-user-and-bday label, input, select{
@@ -86,6 +92,7 @@ header{
 	top: 32%;
 	left: 65px;
 	height: 40px;
+	background-color: #e2f3f5;
 }
 
 .login-form-user-and-bday select{
@@ -94,6 +101,7 @@ header{
 	left: 65px;
 	height: 40px;
 	width: 100px;
+	background-color: #e2f3f5;
 }
 
 .submit-data input{
@@ -105,4 +113,5 @@ header{
 	width: 230px;
 	padding: 10px;
 	font-size: 24px;
+	background-color: #e2f3f5;
 }
