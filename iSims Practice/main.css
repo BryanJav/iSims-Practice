@@ -17,7 +17,6 @@
 
 body{
 	font-family: Mulish, sans-serif;
-
 }
 
 header{
@@ -93,6 +92,7 @@ header{
 	left: 65px;
 	height: 40px;
 	background-color: #e2f3f5;
+	border-radius: 10px;
 }
 
 .login-form-user-and-bday select{
@@ -102,6 +102,7 @@ header{
 	height: 40px;
 	width: 100px;
 	background-color: #e2f3f5;
+	border-radius: 10px;
 }
 
 .submit-data input{
@@ -114,4 +115,5 @@ header{
 	padding: 10px;
 	font-size: 24px;
 	background-color: #e2f3f5;
+	border-radius: 10px;
 }
