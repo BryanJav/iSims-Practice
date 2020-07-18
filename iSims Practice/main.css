@@ -95,3 +95,14 @@ header{
 	height: 40px;
 	width: 100px;
 }
+
+.submit-data input{
+	position: relative;
+	top: 32%;
+	left: 10%;
+	margin-left: 10px;
+	height: 60px;
+	width: 230px;
+	padding: 10px;
+	font-size: 24px;
+}
