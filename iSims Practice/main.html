@@ -30,52 +30,38 @@
 		</div>
 
 		<div class="login-form-wrapper">
-			<form class="login-form-user-and-bday">
+			<form class="login-form">
 				<div class="username">
-					<div>
-						<label>Username:</label>
-					</div>
-						
-					<div>
-						<input type="text" name="username" size="20">
-					</div>
-						
+					<label>Username:</label>
+					<br>
+					<input type="text" name="username" class="username">
 				</div>
-				
 				<div class="birthday">
-					
-					<div>
-						<label>Birthday:</label>
-					</div>
-					
-					<div>
-						<select name="month">
-						<option value="month">January</option>
-						</select>
+					<label>Birthday:</label>
+					<br>
+					<select name="month">
+						<option value="january">January</option>
+					</select>
 
-						<select name="day">
-							<option value="day">1</option>
-						</select>
+					<select name="day">
+						<option value="1">1</option>
+					</select>
 
-						<select name="year">
-							<option value="year">2020</option>
-						</select>
-
-					</div>
+					<select name="year">
+						<option value="2020">2020</option>
+					</select>
 					
 				</div>
-
-				<div class="submit-data">
-					<div>
-						<input type="button" name="log-in" value="Log-in">
-					</div>
-					
-					<div>
-						<input type="button" name="clear-entries" value="Clear Entries">
-					</div>
-					
+				<div class="password">
+					<label>Password:</label>
+					<br>
+					<input type="password" name="password" class="password">
 				</div>
 
+				<div class="submit-button">
+					<input type="button" name="log-in" value="Log In">
+					<input type="button" name="forgot-password" value="Forgot Password">
+				</div>
 			</form>
 
 		</div>
